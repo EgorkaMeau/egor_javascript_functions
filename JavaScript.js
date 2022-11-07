@@ -43,7 +43,7 @@
 // })
 
 const array = [
-    "lu1pa",
+    "lupa",
     "pupa",
     "ronalda",
     "pepsi",
@@ -59,3 +59,24 @@ if (el.includes("egor")) {
     console.log("netu")
 }
 })
+
+
+
+const tag_h1 = document.querySelector(".title")
+tag_h1.innerHTML = "Salut";
+tag_h1.style.color = "red";
+console.log(tag_h1);
+
+const boty_color = document.querySelector("body")
+
+// function color() {
+//     addEventListener("click", ()=> {
+//         boty_color.style.backgroundColor = "blue":
+//     })
+// }
+// color(tag_h1)
+
+const paragraf = document.createElement('p')
+paragraf.innerHTML = "1992"
+paragraf.className = "age"
+boty_color.appendChild(paragraf)
