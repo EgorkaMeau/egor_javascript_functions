@@ -42,32 +42,32 @@
 //     console.log(el.name);
 // })
 
-const array = [
-    "lupa",
-    "pupa",
-    "ronalda",
-    "pepsi",
-    "egorka"
-];
-array.forEach(el => {
+// const array = [
+//     "lupa",
+//     "pupa",
+//     "ronalda",
+//     "pepsi",
+//     "egorka"
+// ];
+// array.forEach(el => {
 
     // console.log(el.includes("egor"));
 
-if (el.includes("egor")) {
-    console.log(el);
-}else{
-    console.log("netu")
-}
-})
+// if (el.includes("egor")) {
+//     console.log(el);
+// }else{
+//     console.log("netu")
+// }
+// })
 
 
 
-const tag_h1 = document.querySelector(".title")
-tag_h1.innerHTML = "Salut";
-tag_h1.style.color = "red";
-console.log(tag_h1);
+// const tag_h1 = document.querySelector(".title")
+// tag_h1.innerHTML = "Salut";
+// tag_h1.style.color = "red";
+// console.log(tag_h1);
 
-const boty_color = document.querySelector("body")
+// const boty_color = document.querySelector("body")
 
 // function color() {
 //     addEventListener("click", ()=> {
@@ -76,7 +76,7 @@ const boty_color = document.querySelector("body")
 // }
 // color(tag_h1)
 
-const paragraf = document.createElement('p')
-paragraf.innerHTML = "1992"
-paragraf.className = "age"
-boty_color.appendChild(paragraf)
+// const paragraf = document.createElement('p')
+// paragraf.innerHTML = "1992"
+// paragraf.className = "age"
+// boty_color.appendChild(paragraf)
